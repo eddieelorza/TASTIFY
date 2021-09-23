@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TASTIFY</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="apple-touch-icon" sizes="180x180" href="./assets/ICON.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/ICO16.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/ICO32.ico">
+
+</head>
+<body data-spy="scroll" data-target="#navbar" data-offset="57">
+	 <!-- Header --> 
+	 <div class="barra">
+        <div class="container ">
+        <nav id="navegacion-principal" class="navbar fixed-top navbar-expand-lg  navbar-light nav-main">
+            <div class="container">
+                <a class="navbar-brand   " href="#">
+                    <img src="./assets/SVG/tastifylogo.svg" alt="" width="220" height="40">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+              <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="nav nav-pills header-nav--ul">
+                    <li class="nav-item ">
+                      <a class="nav-link active "  href="#main">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="#categories">CATEGORIAS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="#aboutUs">CONOCENOS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">CONTACTO</a>
+                    </li>
+                  </ul>
+              </div>
+              <li class="nav-item list-unstyled ">
+                <a class="nav-link  shopping-cart" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
+              </li>
+              <li class="nav-item dropdown list-unstyled ">
+                <a class="nav-link dropdown-toggle user-photo" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
+                <ul class="dropdown-menu list-style-type-none" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">cerrar sesion</a></li>
+                </ul>
+              </li>
+            </div>
+          </nav>
+        </div>
+        </div>
+	  </nav>
+	  <!-- /Header -->
+
+	  <!-- Main -->
+	  <main id="main">
+		<section id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+		  <section class="carousel-inner">
+			<div class="carousel-item active">
+			  <img class="d-block w-100" src="./assets/tacos.jpg" alt="tacosImg">
+			</div>
+			<div class="carousel-item">
+			  <img class="d-block w-100" src="./assets/friends.jpg" alt="friendsImg">
+			</div>
+			<div class="carousel-item">
+			  <img class="d-block w-100" src="./assets/burger.jpg" alt="burgerImg">
+			</div>
+			<div class="overlay">
+			  <div class="container">
+				<div class="row align-items-center">
+				  <div class="col-md-6   text-md-letf">
+					<h1>Tu comida cuando quieras, donde quieras.</h1>
+					<p class="d-none d-md-block">
+						Una plataforma de servicio a domicilio que lleva tu comida de tu restaurante favorito a tu puerta.
+					</p>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </section>
+		</section>
+	  </main>
+	  <!-- /Main -->
+	<!--go top popup -->
+	  <div class="go--top-container">
+		<div class="go-top-buttom">
+			<i class="fas fa-chevron-up"></i>
+		</div>
+	</div>
+    <!--/go top popup -->
+	<!-- Categories -->
+		<section id="categories" class="container mt-4  py-3">
+			<h3 class="text-center categories__title" >CATEGORIAS</h3>
+			<section class="main-categories--container">
+			  <div class="categories--container">
+				  <div class="categories--item active">
+					  <a id="Pizzas" ><img class="categorie-item__img" src="./assets/categories/pizzas.svg" alt="category">
+				  </a>
+				  <p class="main-categorie_text">Pizza</p>
+				  </div>
+				  <div class="categories--item">
+					  <a id="Hamburguesas" ><img class="categorie-item__img" src="./assets/categories/Hamburguesas.svg" alt="category">
+				  </a>
+				  <p class="main-categorie_text">Hamburguesas</p>
+				  </div>
+				  <div class="categories--item">
+					  <a id="Sushi"><img class="categorie-item__img" src="./assets/categories/Sushi.svg" alt="category">
+				  </a>
+				  <p class="main-categorie_text" >Sushi</p>
+				  </div>
+				  <div class="categories--item">
+					  <a href="#" ><img class="categorie-item__img" src="./assets/categories/Desayunos.svg" alt="category">
+				  </a>
+				  <p class="main-categorie_text">Desayunos</p>
+				  </div>
+				  <div class="categories--item">
+					  <a href="#" ><img class="categorie-item__img" src="./assets/categories/Tacos.svg" alt="category">
+				  </a>
+				  <p class="main-categorie_text">Tacos</p>
+				  </div>
+				  <div class="categories--item">
+					  <a href="#" ><img class="categorie-item__img" src="./assets/categories/Snacks.svg" alt="category">
+				  </a>
+				  <p class="main-categorie_text">Snacks</p>
+				  </div>
+				  <div class="categories--item">
+					  <a href="#" ><img class="categorie-item__img" src="./assets/categories/Saludables.svg" alt="category">
+				  </a>
+				  <p class="main-categorie_text">Saludables</p>
+				  </div>
+				  <div class="categories--item">
+					  <a href="#" ><img class="categorie-item__img" src="./assets/categories/Restaurantes.svg" alt="category">
+				  </a>
+				  <p class="main-categorie_text">Restaurantes</p>
+				  </div>
+				  <div class="categories--item">
+					  <a href="#" ><img class="categorie-item__img" src="./assets/categories/Postres.svg" alt="category">
+				  </a>
+				  <p class="main-categorie_text">Postres</p>
+				  </div>
+				  <div class="categories--item">
+					  <a href="#" ><img class="categorie-item__img" src="./assets/categories/Vegetariana.svg" alt="category">
+				  </a>
+				  <p class="main-categorie_text">Vegetariana</p>
+				  </div>
+				  <div class="categories--item">
+					  <a href="#" ><img class="categorie-item__img" src="./assets/categories/AltaCocina.svg" alt="category">
+				  </a>
+				  <p class="main-categorie_text">Alta Cocina</p>
+				  </div>
+				  <div class="categories--item">
+					  <a href="#" ><img class="categorie-item__img" src="./assets/categories/Panaderia.svg" alt="category">
+				  </a>
+				  <p class="main-categorie_text">Panaderia</p>
+				  </div>
+		  </section>
+		  </section>
+       <!-- /Categorias -->
+	   <!-- Carousel Products-->
+        <section class="main-container">
+			<div class="carousel ">
+				<h3 class="categories__title">PIZZA</h3>
+				<div class="contenedor">
+				<div class="carousel__contenedor">
+					<button aria-label="Anterior" class="carousel__anterior">
+						<img src="./assets/left-chevron.svg"/>
+					</button>
+	
+					<div class="carousel__lista">
+						
+						<div class="carousel__elemento">
+							<img src="./assets/burger.jpg" alt="Product">
+								<h3 class="">Pizza</h3>
+								<p>Hamburguesa de carne de res 160gr con
+									pulled pork, cebolla, queso cheddar, 
+									reducción de balsámico</p>
+								<h3 class="">$50</h3>
+								<div class="add--box">
+									<a href="#" class="">Agregar al Carrito</a>
+								</div>
+								
+						</div>
+						<div class="carousel__elemento">
+							<img src="./assets/burger.jpg" alt="Product">
+								<h3 class="">Pizza</h3>
+								<p>Hamburguesa de carne de res 160gr con
+									pulled pork, cebolla, queso cheddar, 
+									reducción de balsámico</p>
+								<h3 class="">$50</h3>
+								<div class="add--box">
+									<a href="#" class="">Agregar al Carrito</a>
+								</div>
+								
+						</div>
+						<div class="carousel__elemento">
+							<img src="./assets/burger.jpg" alt="Product">
+								<h3 class="">Pizza</h3>
+								<p>Hamburguesa de carne de res 160gr con
+									pulled pork, cebolla, queso cheddar, 
+									reducción de balsámico</p>
+								<h3 class="">$50</h3>
+								<div class="add--box">
+									<a href="#" class="">Agregar al Carrito</a>
+								</div>
+								
+						</div>
+						<div class="carousel__elemento">
+							<img src="./assets/burger.jpg" alt="Product">
+								<h3 class="">Pizza</h3>
+								<p>Hamburguesa de carne de res 160gr con
+									pulled pork, cebolla, queso cheddar, 
+									reducción de balsámico</p>
+								<h3 class="">$50</h3>
+								<div class="add--box">
+									<a href="#" class="">Agregar al Carrito</a>
+								</div>
+								
+						</div>
+						<div class="carousel__elemento">
+							<img src="./assets/burger.jpg" alt="Product">
+								<h3 class="">Pizza</h3>
+								<p>Hamburguesa de carne de res 160gr con
+									pulled pork, cebolla, queso cheddar, 
+									reducción de balsámico</p>
+								<h3 class="">$50</h3>
+								<div class="add--box">
+									<a href="#" class="">Agregar al Carrito</a>
+								</div>
+								
+						</div>
+						<div class="carousel__elemento">
+							<img src=".assets/burger.jpg" alt="Product">
+								<h3 class="">Pizza</h3>
+								<p>Hamburguesa de carne de res 160gr con
+									pulled pork, cebolla, queso cheddar, 
+									reducción de balsámico</p>
+								<h3 class="">$50</h3>
+								<div class="add--box">
+									<a href="#" class="">Agregar al Carrito</a>
+								</div>
+								
+						</div>
+						
+					</div>
+	
+					<button aria-label="Siguiente" class="carousel__siguiente">
+						<img src="./assets/right-chevron.svg"/>
+					</button>
+				</div>
+	
+				<div role="tablist" class="carousel__indicadores"></div>
+			</div>
+		</section>
+	</div>	
+    <!-- /Carousel Products-->    
+    <!-- Sobre Tastify -->
+    <section id="aboutUs" class="about--tastify">
+		<section class="container-fluid">
+		  <div class="row align-items-center">
+			
+			<div class="col-12 col-lg-6 pt-4 pb-4">
+			  <h2>Sobre Tastify</h2>
+			  <p>
+				Tastify es una plataforma web que brinda a los consumidores un acceso a la 
+				información, realizando compras en establecimientos de comida, 
+				proporcionándoles un amplio catálogo de diferentes productos de acuerdo con 
+				su antojo. Así mismo permite que restaurantes y tiendas puedan registrarse
+				 dentro del sitio, visibilizando y agilizando el proceso de venta de sus productos.
+			  </p>
+			 
+			</div>
+			<div class="col-12 col-lg-6 pl-0 pr-0 about_img">
+			  <img src="./assets/burger.jpg" alt="Tastify-about" />
+			</div>
+		  </div>
+		</section>
+	  </section>
+	  <!-- /Sobre Tastify -->
+	  <!-- Pasos Tastify -->
+	  <section class="tastify--steps container mt-5">
+        <h3 class="text-center categories__title" >COMO USAR TASTIFY</h3>
+
+        <div class="row justify-content-evenly mt-4 ">
+            <div class="steps--description text-light p-3 tastify--step_img1">
+                <!-- <p>Lorem <span>Lorem</span></p> -->
+            </div>
+            <div class="steps--description text-light p-3 tastify--step_img2">
+                <!-- <p>Lorem <span>Lorem</span></p> -->
+            </div>
+            <div class="steps--description text-light p-3 tastify--step_img3">
+                <!-- <p>Lorem <span>Lorem</span></p> -->
+            </div>
+            <div class="steps--description text-light p-3 tastify--step_img4">
+                <!-- <p>Lorem <span>Lorem</span></p> -->
+            </div>
+           
+        </div>
+       </section>
+	<!-- /Pasos Tastify -->
+    <!-- unete a tastify -->
+	<section class="join--Tastify">  
+
+		<section class="container">
+			<div class="row align-items-center justify-content-center">
+				<div class="col-md-8 ">
+						<div class="contenido text-light text-center ">
+								<h2>Unete a Tastify y Beneficiate de Nuestro
+								  Servicio</h2>
+							 
+								<a href="#" class="btn-primary btn text-uppercase">Tengo un Restaurante</a>
+						</div>
+				</div>
+			</div>
+		</section>
+	  </section>
+	<!-- /unete a tastify -->  
+<!-- footer -->
+    <footer class="footer">
+		<section class="container">
+			<section class="row align-items-center justify-content-md-center">
+			  <div class="col-sm-2 align-center">
+				  <img src="./assets/SVG/tastifylogo.svg" alt="">
+				 
+			  </div>
+			  <div class="col">
+				 <h3>Contacto</h3>
+				 <p>
+                        +52 9761234343 <br>
+                        hola@tastify.mx <br>
+						Oaxaca, Oax.
+				 </p>
+			  </div>
+			  <div class="col">
+				 
+				  <ul> 
+					  <h3>Enlaces</h3>
+					  <li>Registrarse</li>
+					  <li>Categorias</li>
+					  <li>Conocenos</li>
+				  </ul>
+			  </div>
+				<ol class=" col justify-content-md-center social-media">
+					<li class="">
+						<img src="./assets/icon-facebook.svg" alt="">
+					</li>
+					<li class="">
+						<img src="./assets/icon-instagram.svg" alt="">
+					</li>
+					<li class="">
+						<img src="./assets/icon-twitter.svg" alt="">
+					</li>
+	  
+				  </ol>
+
+			</section>
+			<hr class="mt-4 mb-2 border-surface-400">
+		         <p class="text-center">TASTIFY COPYRIGHT ® 2021 POR EDDIE ELORZA - POLITICA DE PRIVACIDAD</p>
+		  </section>
+	</footer>
+<!-- /footer -->
+	<script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="js/app.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script> 
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
